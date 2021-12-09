@@ -1,38 +1,62 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+body{
+ margin:0;
+ padding:0; 
+ font-family: 'Ubuntu', sans-serif;
+ background-color:#FFE6E6;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heading h3{
+  text-align:center;
+  font-size:28px;
+  color:#BA135D;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.inputarea{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+  margin-top:100px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.inputarea label{
+  font-size:23px;
+  color:#E63E6D;
 }
-
-.App-link {
-  color: #61dafb;
+.inputarea input{
+  width:250px;
+  height:35px;
+  margin:10px;
+  font-size:17px;
+  padding-left:7px;
+  border:1px solid #E63E6D;
+  outline:none;
+  border-radius:7px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.inputarea button{
+  width:100px;
+  height:35px;
+  font-size:19px;
+  background-color:#BA135D;
+  border-radius:8px;
+  border:none;
+  color:#FFE6E6;
+  cursor: pointer;
+}
+.result p{
+  text-align:center;
+  color:#BA135D;
+  font-size:25px;
+}
+.footer{
+  margin-top:100px;
+  width:100%;
+  height:200px;
+  background-color:#E63E6D;
+}
+.footer h3{
+  color:#FFE6E6;
+  text-align:center;
+  margin:30px;
+}
+.footer a{
+  text-decoration:none;
 }
