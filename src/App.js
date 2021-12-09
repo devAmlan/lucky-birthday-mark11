@@ -38,8 +38,8 @@ function App() {
         <p>{msg}</p> 
         </div>
         <div className="footer">
-           <a href="ab" target="_blank"><h3>Github Repo <AiFillGithub style={{fontSize:"30px",color:"#000000",cursor:"pointer"}}/></h3> </a>
-           <a href="cd" target="_blank"><h3>Connect with me <AiOutlineTwitter style={{fontSize:"30px",color:"#000000",cursor:"pointer"}}/></h3> </a>
+           <a href="https://github.com/devAmlan/lucky-birthday-mark11" target="_blank"rel="noreferrer"><h3>Github Repo <AiFillGithub style={{fontSize:"30px",color:"#000000",cursor:"pointer"}}/></h3> </a>
+           <a href="https://twitter.com/AmlanjyotiSaho5" target="_blank" rel="noreferrer"><h3>Connect with me <AiOutlineTwitter style={{fontSize:"30px",color:"#000000",cursor:"pointer"}}/></h3> </a>
         </div>
         </div>
     )
